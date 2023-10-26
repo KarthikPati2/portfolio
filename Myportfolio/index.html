@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         body {
+             background-color: rgb(0, 0, 33);
+             color: white;
+             font-family: 'Poppins', sans-serif;
+              }
+         nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 62);
+         }
+         nav ul{
+            display: flex;
+            justify-content: center;
+         }
+         nav ul li{
+            list-style: none;
+            margin: 0 23px;
+         }
+
+         nav ul li a{
+            text-decoration: none;
+            color: white;
+         }
+
+         nav ul li a:hover{
+            font-size: 1.04rem;
+            color: rgb(153, 153, 226);
+         }
+         .left{
+            font-size: 1.5rem;
+         }
+         .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+            font-size: 2rem;
+         }
+         .firstsection > div{
+            width: 30%;
+          
+         }
+         .leftsection {
+            font-size: 30rem;
+            margin: 70rem;
+         }
+         .leftsection .buttons{
+            padding: 50px 0;
+         }
+
+         .leftsection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+         }
+
+         .rightsection img{
+            width: 88%;
+           
+         }
+         .purple{
+             color: rgb(170, 107, 228);
+         }
+         .text-grey{
+            color: grey;
+         }
+         #element{
+            color: rgb(170, 107, 228);
+         }
+         .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+         }
+         main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+         }
+         .secondsection h1{
+            font-size: 1.9rem;
+         }
+         .secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+         }
+         .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+         }
+         .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+         }
+         .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 25px;
+
+         }
+         .vertical-desc{
+            position: relative;
+            color: grey;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+         }
+         .footer{
+            display: flex;
+            padding: 23px;
+            justify-content: space-evenly;
+
+         }
+         footer{
+            background-color: #0e0e1a;
+            height: 23px 122px;
+         }
+         .footer ul{
+            list-style: none;
+         }
+         .footer > div{
+            width: 223px;
+         }
+         footer .footer-rights{
+             text-align: center;
+             color: grey;
+             padding: 12px 0;
+
+         }
+         .stylish-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Karthik's portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contack Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div calss="leftsection">
+                Hi, My name is<span class="purple"> Karthik</span>
+                <div>I am a passionate</div>
+                <div>Web Develope</div>
+                <span id="element"></span>
+                <div class="buttons">
+                <button class="stylish-button" onclick="window.location.href='https://www.linkedin.com/in/karthikpati/'">LinkedIn</button>
+                <button class="stylish-button" onclick="window.location.href='https://github.com/KarthikPati2'">Github</button>
+                <button class="stylish-button" onclick="window.location.href='mailto:patikarthik82@gmail.com'">Gmail ID</button>
+                    
+                </div>
+            </div>
+             <div class="rightsection">
+                  <img src="portfolioimage.jpeg" alt="portfolio image">
+             </div>
+        </section>
+<hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so fare </span>
+                <h1>Work Experience</h1>
+
+             <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="chegg.png" alt="">
+                    <div class="vertical-text">
+                        Chegg Subject Matter Expert(Computer science)
+                    </div>
+                    <div class="vertical-desc">
+                        Answering students doubts in programming, computer science related topics
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-text">
+                        Frontend Web Developer at (Bharat Intern)
+                    </div>
+                    <div class="vertical-desc">
+                        HTML, CSS, JavaScript.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="javascript.jpg" alt="">
+                    <div class="vertical-text">
+                       Web Developer Internship at (OctaNet Sw. Services)
+                    </div>
+                    <div class="vertical-desc">
+                        Skills (HTML,CSS,JavaScript.)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="codeing.png" alt="">
+                    <div class="vertical-text">
+                        Programming Skills
+                    </div>
+                    <div class="vertical-desc">
+                        Python, Java, javaScript.
+                    </div>
+                </div>
+                </div>
+                <div class="vertical"></div>
+             </div>
+                
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Karthik's Developer Portfolio</h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>services</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>services</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>services</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169; www.Karthikportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Software Developer', 'Programmer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
